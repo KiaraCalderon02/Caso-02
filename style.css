@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #c2e9fb 0%, #ffffff 100%);
+    color: #333;
+}
+header {
+    background: linear-gradient(to bottom, #c2e9fb 0%, #a1c4fd 100%);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sticky-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    width: 85%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+select, a, button {
+    font-size: 14px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.login-btn, .register-btn {
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.register-btn {
+    background-color: #007bff;
+    color: white;
+}
+main {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to bottom, #c2e9fb 0%, #ffffff 100%);
+}
+
+.Texto1 h1 {
+    font-size: 2.2em;
+    margin: 10px 0;
+}
+
+.Texto1 h3 {
+    background-color: white;
+    color: #007bff;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.botones-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.botones-container button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.learn-btn {
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.get-btn {
+    background-color: #007bff;
+    color: white;
+}
+.contenedor3, .contenedor4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.small-images-container {
+    display: flex;
+    gap: 8px;
+}
+
+.small-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.medium-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.numeros-txt {
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.numero h2 {
+    color: #007bff;
+}
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.contenedor2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
