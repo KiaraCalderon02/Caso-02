@@ -17,7 +17,7 @@ En este proyecto, he diseñado una página web que imita el diseño de un mockup
 Para ver el proyecto en tu máquina local, sigue estos pasos:
 
 1. **Descargar el proyecto**:
-   - Descarga el archivo ZIP del proyecto desde el repositorio o usando el siguiente enlace: [Descargar ZIP](link-al-zip).
+   - Descarga el archivo ZIP del proyecto desde el repositorio.
    
 2. **Extraer el archivo ZIP**:
    - Extrae el contenido del archivo ZIP en tu computadora.
