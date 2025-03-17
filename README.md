@@ -2,7 +2,7 @@
 
 Este proyecto consiste en diseñar una página web basada en un mockup. He recreado una página web según una imagen proporcionada, replicando el diseño con HTML y CSS.
 
-![Link del proyecto] https://kiaracalderon02.github.io/Caso-02/
+[Link del proyecto] https://kiaracalderon02.github.io/Caso-02/
 
 ## Descripción
 
